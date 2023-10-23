@@ -7,7 +7,7 @@ public class Ex06 {
         String term = "1";
         System.out.println(term);
 
-        for (int i = 1; i < nbr; i++) {
+        for (int i = 0; i < nbr; i++) {
             term = getNextTerm(term);
             System.out.println(term);
         }
